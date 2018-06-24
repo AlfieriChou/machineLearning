@@ -1,0 +1,23 @@
+{
+  "name": "machinelearning",
+  "version": "1.0.0",
+  "description": "base on brain.js to understand machine learning.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfieriChou/machineLearning.git"
+  },
+  "keywords": [
+    "machine",
+    "learning"
+  ],
+  "author": "AlfieriChou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfieriChou/machineLearning/issues"
+  },
+  "homepage": "https://github.com/AlfieriChou/machineLearning#readme"
+}
