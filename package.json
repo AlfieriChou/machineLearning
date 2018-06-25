@@ -4,6 +4,7 @@
   "description": "base on brain.js to understand machine learning.",
   "main": "server.js",
   "scripts": {
+    "start": "NODE_ENV=production nodemon server.js --exec babel-node --presets es2015,stage-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/AlfieriChou/machineLearning/issues"
   },
-  "homepage": "https://github.com/AlfieriChou/machineLearning#readme"
+  "homepage": "https://github.com/AlfieriChou/machineLearning#readme",
+  "dependencies": {
+    "brain.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.17.5"
+  }
 }
