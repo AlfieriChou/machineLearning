@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "machine_learning_demo/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
